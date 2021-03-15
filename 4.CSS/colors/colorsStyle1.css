@@ -1,0 +1,44 @@
+.first {
+    color: darkturquoise;
+    background-color: darkviolet;
+    opacity: 0.5;
+}
+
+.second {
+    background-color: rgb(0, 206, 209);
+    color: rgba(255, 20, 147, 0.5);
+}
+
+.third {
+    color: #00ced1;
+    background-color: #b22222;
+}
+
+.picture1 {
+    opacity: 0.7;
+}
+
+.picture2 {
+    background: rgb(142,201,221, 0.7);
+    
+}
+
+.column1 {
+    background-color:aliceblue;
+}
+
+.column2 {
+    background-color:hotpink;
+}
+
+.column3 {
+    background-color: rgb(189, 104, 35);
+}
+
+.column4 {
+    background-color: rgb(91, 24, 136);
+}
+
+.column5 {
+    background-color: rgb(183, 235, 41);
+}

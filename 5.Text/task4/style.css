@@ -1,0 +1,16 @@
+ul li a {
+    color: red;
+    text-shadow:2px 2px #00f7ff;
+}
+
+ul li a:visited {
+    color: black;
+}
+
+ul li a:hover {
+    color: green;
+}
+
+ul li a:active {
+    color: blue;
+}

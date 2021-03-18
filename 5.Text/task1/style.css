@@ -1,0 +1,49 @@
+
+body {
+    font-size: 20px;
+}
+
+
+.first {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+.second {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.third {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.first q {
+    font-family: fantasy;
+}
+
+.second q {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.third q {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'SyneMono';
+    src: url(./Syne_Mono/SyneMono-Regular.ttf);
+}
+
+.first {
+    font-family:SyneMono;
+}
+h1 {
+    font-family: 'Chango', cursive;
+}

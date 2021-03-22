@@ -1,0 +1,69 @@
+p {
+    background-color: yellow;
+    border: 5px thick ;
+    display: inline;
+}
+
+.first {
+    border:  dashed red;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.second {
+    border: solid green;
+    margin-right: 20px;
+}
+
+.third {
+    border:  dashed red;
+    margin-right: 20px;
+}
+
+.fourth {
+    background-color: pink;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.fifth {
+    background-color: pink;
+    width: 400px;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+.sixth {
+    background-color: pink;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.maintitle {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid;
+    background-color: crimson;
+    color: white;
+    font-family: Chango;
+    box-shadow: 10px 10px red;
+    border-radius: 25px;
+}
+@font-face {
+    font-family: Chango;
+    src: url(.//Fonts/Chango/Chango-Regular.ttf);
+}
+
+
+
+
+
+
+
+

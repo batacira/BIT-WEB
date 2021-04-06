@@ -1,0 +1,12 @@
+img {
+    display: block;
+    clear: both;
+}
+
+.first {
+    float: right;
+}
+
+.second {
+    margin: auto;
+}

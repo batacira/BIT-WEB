@@ -1,0 +1,23 @@
+.first {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 50px;
+}
+
+.second {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.third {
+    position: absolute;
+    bottom: 0px;
+}
+
+.link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

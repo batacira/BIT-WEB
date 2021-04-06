@@ -1,0 +1,28 @@
+.circles {
+    list-style-type: circle;
+}
+
+.squares {
+    list-style-type: square;
+}
+
+.upper {
+    list-style-type: upper-alpha;
+}
+
+.roman {
+    list-style-type: upper-roman;
+}
+
+.image {
+    list-style-image: url(../HtmlProject/images/bart/bart2.gif);
+    margin-left: 270px;
+    width: 200px;
+}
+
+.second {
+    list-style-image: url(../HtmlProject/images/bart/bart2.gif);
+    margin-left: 270px;
+    width: 200px;
+    list-style-position: inside;    
+}

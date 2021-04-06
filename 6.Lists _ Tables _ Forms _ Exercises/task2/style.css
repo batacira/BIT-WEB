@@ -1,0 +1,25 @@
+.table {
+    margin:0 auto;
+    border-collapse: collapse;
+}
+
+.table tr:nth-child(odd) {
+    background-color:lightgray;
+}
+.table th {
+    background-color: red;
+    color: white;
+}
+
+.table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table tr:hover {
+    background-color: yellow;
+}
+
+.img {
+    height: 100px;
+}

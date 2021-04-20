@@ -1,0 +1,1103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "roboto-regular";
+}
+
+.container {
+    position: relative;
+}
+
+.header-img {
+    background-image: url(./assets/images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.header-img h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 90px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.header-img button {
+    padding: 8px 15px;
+    background-color: rgb(40, 100, 200);
+    display: block;
+    margin: 20px auto;
+    color: white;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.build {
+    float: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    border: 3px solid rgb(110 110 110);
+    border-right: none;
+    padding-left: 10px;
+}
+
+.estate {
+    float: right;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    border-right: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.nav-ul {
+    padding: 10px;
+    margin-top: 30px;
+    clear: both;
+    background-color: rgb(0, 174, 255);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: "roboto-regular";
+}
+
+.nav-ul li {
+    text-emphasis: none;
+    text-align: center;
+    padding: 7px;
+    list-style-type: none;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li a:hover {
+    color:  rgb(0, 174, 255);
+    background-color: white;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.divs {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.welcome h2 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.span  {
+    color: rgb(0, 140, 255);
+}
+
+.welcome p {
+        font-family: "roboto-regular";
+        margin-top: px;
+}
+
+.ul1 {
+    padding: 10px;
+    margin-top: 30px;
+    clear: both;
+    
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    list-style-image: url(./assets/images/arrow_bullet.png);
+}
+
+.ul1 li {
+    text-emphasis: none;
+    text-align: center;
+    padding: 7px;
+    list-style-type: none;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    color:rgb(110, 110, 110);
+}
+
+
+
+.dream2 h2 {
+    color: rgb(0, 140, 255);
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.dream2 p {
+    font-family: "roboto-regular";
+    font-size: 17px;
+}
+
+/* /////////////// Comments/////////////////// */
+
+.comments {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.comments h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.people {
+    background-color: rgb(81, 184, 253);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.first {
+    font-size: 20px;
+}
+
+.first img {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.first  p {
+    margin-top: 5%;
+}
+
+.stars {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+
+/* Contact */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contact {
+    overflow: hidden;
+    
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.conus {
+    background-color:#3DDA99;
+    width: 50%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 200px;
+}
+
+.conus > i {
+    margin-bottom: 30px;
+}
+
+.connect {
+    background-color: #FD5282;
+    width: 50%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 200px;
+}
+
+.connect i {
+    margin-right: 12px;
+    margin-top: 30px;
+}
+
+.address {
+    background-color: #4E7DE5;
+    width: 50%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 200px;
+}
+
+.address > p {
+    margin-bottom: 10px;
+}
+
+.house {
+    width: 50%;
+    background-color: rgb(81, 184, 253);
+    float: left;
+    height: 200px;
+}
+
+.house-img {
+    width: 100%;
+}
+
+.iframe {
+    width: 100%;
+    margin-top: -230;
+}
+
+.form h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 10px;
+} 
+
+.submit {
+    background-color: orange;
+    color: white;
+    padding: 10px 27px;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-ul {
+    padding: 30px;
+    
+}
+
+.footer-ul li {
+    display: inline-block;
+}
+
+.footer-ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+/******************** Tablet *******************/
+
+@media only screen and (min-width:728px) {
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "roboto-regular ";
+}
+
+.container {
+    position: relative;
+}
+
+.header-img {
+    background-image: url(./assets/images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px;
+    height: 500px; 
+}
+
+.header-img h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 90px;
+    width: 80%;
+    margin: 150px auto;
+}
+
+.header-img button {
+    padding: 10px 25px;
+    background-color: rgb(40, 100, 200);
+    display: block;
+    color: white;
+    border-radius: 20px;
+    margin: -120px auto;
+}
+
+.logo {
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: left;
+}
+
+.build {
+    float: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    border: 3px solid white;
+    border-right: none;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.estate {
+    float: right;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    border-right: none;
+    margin-top: 3px;
+}
+
+.nav-ul {
+    padding: 10px;
+    background-color: unset;
+    width:50%;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: -50px;
+}
+
+.nav-ul li {
+    text-emphasis: none;
+    text-align: center;
+    padding: 5px;
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li a:hover {
+    color:  rgb(0, 174, 255);
+    background-color: white;
+}
+
+/* //////////////// divs /////////////////// */
+
+
+.divs {        
+    overflow: hidden;
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+
+.para {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+
+.welcome  {
+    float: left;
+    width: 50%;
+}
+
+
+.welcome h2 {
+    color: rgb(0, 140, 255);
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 23px;
+    text-align: left;
+    
+}
+
+.ul1 {
+    padding: 10px;
+    margin-top: 20px;
+    list-style-image: url(./assets/images/arrow_bullet.png);
+}
+
+.ul1 li {
+    text-align: left;
+    text-emphasis: none;
+    padding: 7px;
+    list-style-type: none;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    color:rgb(110, 110, 110);
+}
+
+
+
+.image {
+    float: left;
+    width: 50%;
+}
+
+.image img {
+    height: 270px;
+    
+}
+
+.dream2 {
+    float: left;
+    text-align: left;
+    width: 90%;
+    
+}
+
+.dream2 h2 {
+    color: rgb(0, 140, 255);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 23px;
+    
+}
+
+
+.dream2 p {
+    font-family: "roboto-regular";
+    font-size: 17px;
+}
+
+
+/* /////////////// Comments //////////////////// */
+
+.comments {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.comments h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.people {
+    background-color: rgb(81, 184, 253);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    float: left;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.first {
+    font-size: 20px;
+}
+
+.first img {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.first  p {
+    margin-top: 5%;
+}
+
+.stars {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+
+/* Contact */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contact {
+    overflow: hidden;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.conus {
+    background-color:#3DDA99;
+    width: 50%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 200px;
+    text-align: center;
+}
+
+.conus > p {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.connect {
+    background-color: #FD5282;
+    width: 50%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.connect i {
+    margin-right: 12px;
+    margin-top: 30px;
+}
+
+.address {
+    background-color: #4E7DE5;
+    width: 50%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.address > p {
+    margin-bottom: 10px;
+}
+
+.house {
+    width: 50%;
+    background-color: rgb(81, 184, 253);
+    float: left;
+    height: 200px;
+}
+
+.house-img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.iframe {
+    width: 100%;
+    margin-top: -230;
+}
+
+.form h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form input {
+    display: inline-block;
+    width: 32%;
+    padding: 10px ;
+    margin-bottom: 10px;
+} 
+
+textarea {
+    width: 100%;
+}
+
+.submit {
+    background-color: orange;
+    color: white;
+    padding: 10px 27px;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    margin-top: 50px;
+}
+
+.footer-ul {
+    padding: 30px;
+    
+}
+
+.footer-ul li {
+    display: inline-block;
+}
+
+.footer-ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+}
+
+/*//////////// Desktop /////////////////*/
+
+@media only screen and (min-width:1200px) {
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "roboto-regular ";
+}
+
+.container {
+    position: relative;
+}
+
+.header-img {
+    background-image: url(./assets/images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px;
+}
+
+.header-img h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 90px;
+    width: 80%;
+    margin: 150px auto;
+}
+
+.header-img button {
+    padding: 10px 25px;
+    background-color: rgb(40, 100, 200);
+    display: block;
+    color: white;
+    border-radius: 20px;
+    margin: -120px auto;
+}
+
+.logo {
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: left;
+}
+
+.build {
+    float: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    border: 3px solid white;
+    border-right: none;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.estate {
+    float: right;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    border-right: none;
+    margin-top: 3px;
+}
+
+.nav-ul {
+    padding: 10px;
+    width:38%;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: -50px;
+}
+
+.nav-ul li {
+    text-emphasis: none;
+    text-align: center;
+    padding: 7px;
+    list-style-type: none;
+    float: left;
+    margin-left:20px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li:hover {
+    color:  rgb(0, 174, 255);
+    background-color: white;
+    padding: 8px 10px;
+}
+
+/* //////////////// divs /////////////////// */
+
+
+.divs {        
+    overflow: hidden;
+    
+    margin:  0 auto;
+    margin-top: 90px;
+}
+
+
+.para {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.span  {
+    color: rgb(0, 140, 255);
+    text-align: left;
+    font-size: 22px;
+    
+}
+
+.welcome  {
+        float: left;
+        width: 33%;
+    }
+    
+.welcome h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 23px;
+}
+
+.ul1 {
+    padding: 10px;
+    margin-top: 20px;
+    list-style-image: url(./assets/images/arrow_bullet.png);
+}
+
+.ul1 li {
+    text-align: left;
+    text-emphasis: none;
+    padding: 7px;
+    list-style-type: none;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    color:rgb(110, 110, 110);
+}
+
+
+
+.image {
+    float: left;
+    width: 30%;
+}
+
+.image img {
+    height: 270px;
+    
+}
+
+.dream2 {
+    float: left;
+    text-align: left;
+    width: 30%;
+    margin-left: 50px;
+    font-family: "roboto-regular ";
+}
+
+.dream2 p {
+    font-family: "roboto-regular";
+    font-size: 17px;
+}
+
+.dream2 h2 {
+    color: rgb(0, 140, 255);
+    margin-top: 0px;
+    font-size: 22px;
+    
+}
+
+
+/* /////////////// Comments //////////////////// */
+
+.comments {
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.comments h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 29px;
+}
+
+.people {
+    background-color: rgb(81, 184, 253);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.first {
+    font-size: 20px;
+}
+
+.first img {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.first  p {
+    margin-top: 5%;
+}
+
+.stars {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+
+/* Contact */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contact {
+    overflow: hidden;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 29px;
+}
+
+.conus {
+    background-color:#3DDA99;
+    width: 25%;
+    padding: 50px;
+    color: white;
+    float: left;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.conus > p {
+    margin-bottom: -1px;
+}
+
+.connect {
+    background-color: #FD5282;
+    width: 25%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.connect i {
+    margin-right: 12px;
+    margin-top: 30px;
+}
+
+.address {
+    background-color: #4E7DE5;
+    width: 25%;
+    padding: 30px;
+    color: white;
+    float: left;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.address > p {
+    margin-bottom: 10px;
+}
+
+.house {
+    width: 25%;
+    background-color: rgb(81, 184, 253);
+    float: left;
+    height: 300px;
+}
+
+.house-img {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 25%;
+
+}
+
+.iframe {
+    width: 100%;
+    margin-top: -230;
+}
+
+.form h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form input {
+    display: inline-block;
+    width: 32%;
+    padding: 10px ;
+    margin-bottom: 10px;
+} 
+
+textarea {
+    width: 100%;
+}
+
+.submit {
+    background-color: orange;
+    color: white;
+    padding: 10px 27px;
+    border: none;
+    margin-top: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    margin-top: 50px;
+}
+
+.footer-ul {
+    padding: 30px;
+    
+}
+
+.footer-ul li {
+    display: inline-block;
+}
+
+.footer-ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+}

@@ -113,6 +113,12 @@ body {
     margin-top: 50px;
 }
 
+
+.romboid img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 .welcome h2 {
     margin-bottom: 20px;
     margin-top: 0px;
@@ -121,7 +127,6 @@ body {
 
 .para {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .span  {
@@ -130,7 +135,6 @@ body {
 
 .welcome p {
         font-family: "roboto-regular";
-        margin-top: px;
 }
 
 .ul1 {
@@ -180,7 +184,6 @@ body {
 
 .comments h2 {
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .people {
@@ -226,7 +229,6 @@ body {
 .contact h2 {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 .conus {
@@ -287,7 +289,6 @@ body {
 
 .form h2 {
     margin-top: 60px;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -395,6 +396,7 @@ body {
 .logo {
     width: 220px;
     margin: 0 auto;
+    margin-left: 20px;
     margin-top: 20px;
     float: left;
 }
@@ -424,7 +426,7 @@ body {
 .nav-ul {
     padding: 10px;
     background-color: unset;
-    width:50%;
+    width: 50%;
     margin-bottom: 10px;
     float: right;
     margin-top: -50px;
@@ -433,7 +435,7 @@ body {
 .nav-ul li {
     text-emphasis: none;
     text-align: center;
-    padding: 5px;
+    padding: 0px;
     list-style-type: none;
     float: left;
     margin-left: 20px;
@@ -455,14 +457,22 @@ body {
 .divs {        
     overflow: hidden;
     margin-top: 90px;
-    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+
+.romboid {
+    text-align: center;
+}
+
+.romboid img {
+    width: 50%;
     margin-bottom: 50px;
 }
 
 
 .para {
     text-align: center;
-    margin-bottom: 50px;
     font-size: 30px;
 }
 
@@ -544,7 +554,6 @@ body {
 
 .comments h2 {
     text-align: center;
-    margin-bottom: 40px;
 }
 
 .people {
@@ -592,7 +601,6 @@ body {
 .contact h2 {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 .conus {
@@ -660,7 +668,6 @@ body {
 
 .form h2 {
     margin-top: 60px;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -837,9 +844,17 @@ body {
 }
 
 
+.romboid {
+    text-align: center;
+}
+
+.romboid img {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
 .para {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .span  {
@@ -856,7 +871,6 @@ body {
     
 .welcome h2 {
     text-align: left;
-    margin-bottom: 20px;
     margin-top: 0px;
     font-size: 23px;
 }
@@ -922,7 +936,6 @@ body {
 
 .comments h2 {
     text-align: center;
-    margin-bottom: 40px;
     font-size: 29px;
 }
 
@@ -973,7 +986,6 @@ body {
 .contact h2 {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 40px;
     font-size: 29px;
 }
 
@@ -1044,7 +1056,6 @@ body {
 
 .form h2 {
     margin-top: 60px;
-    margin-bottom: 30px;
     text-align: center;
 }
 

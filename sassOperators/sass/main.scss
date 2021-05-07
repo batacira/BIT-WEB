@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.para {
+    padding: 20px;
+    color:goldenrod;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+.first {
+    @extend .para;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    width: 600px / 960px * 100% ;
+    float: left;
+}
+
+.second {
+    @extend .para;
+    border: 2px solid blue;
+    width: 360px / 960px * 100%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.third {
+    @extend .para;
+    border: 2px solid green;
+    margin-bottom: 20px;
+    width: 200px / 960px * 100%;
+    float: right;
+}

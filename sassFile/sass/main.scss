@@ -1,0 +1,18 @@
+$bg :brown;
+$font-size: 17px;
+$border: 10px;
+
+p {
+    background-color:$bg;
+    font-size: $font-size;
+}
+
+.nav {
+    ul {
+        li {
+            a {
+                color:black;
+            }
+        }
+    }
+}

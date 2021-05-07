@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.para, .third, .second, .first {
+  padding: 20px;
+  color: goldenrod;
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 3px solid black;
+}
+
+.first {
+  border: 2px solid red;
+  margin-bottom: 20px;
+  width: 62.5%;
+  float: left;
+}
+
+.second {
+  border: 2px solid blue;
+  width: 37.5%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.third {
+  border: 2px solid green;
+  margin-bottom: 20px;
+  width: 20.8333333333%;
+  float: right;
+}
+
+/*# sourceMappingURL=main.css.map */

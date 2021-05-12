@@ -1,0 +1,29 @@
+.one, .two, .three {
+    background-color: gray;
+    padding: 20px;
+}
+
+.four {
+    background-color: gray;
+    padding: 20px;
+}
+
+.five {
+    background-color: gray;
+    padding: 20px;
+}
+
+.six {
+    background-color: gray;
+    padding: 20px;
+}
+
+.seven {
+    background-color: gray;
+    padding: 20px;
+}
+
+
+.carousel-item>img{
+    max-height: 700px;
+}

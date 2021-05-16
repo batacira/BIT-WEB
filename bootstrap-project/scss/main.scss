@@ -1,0 +1,58 @@
+@import "_variables";
+@font-face {
+  font-family: Lato;
+  src: url(../vendor/fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(../vendor/fonts/Lato-Bold.ttf);
+  font-weight: bold;
+}
+
+.background-color-blue {
+  background-color: $blueish;
+}
+.background-color-green {
+  background-color: $greenish;
+}
+.text-input-color-contact {
+  background-color: $contactColor;
+}
+h1 {
+  font-family: Lato;
+}
+.star-w {
+  display: inline-block;
+  width: 40px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.starN-w {
+  display: inline-block;
+  width: 20px;
+  margin: 0px 0px;
+  position: relative;
+  top: 4px;
+  text-align: center;
+  color: white;
+}
+.star-b {
+  display: inline-block;
+  width: 40px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.starN-b {
+  display: inline-block;
+  width: 20px;
+  margin: 0px 0px;
+  position: relative;
+  top: 4px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.wrapper {
+  height: 50px;
+}
+
+// #findOud:hover {
+//   background-color: $hoverBtn;
+// }

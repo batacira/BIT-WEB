@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+#bg {
+    background-image: url(./assets/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#mario {
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 5%;
+}

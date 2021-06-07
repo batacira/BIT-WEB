@@ -1,0 +1,30 @@
+.ljubicast {
+    background-color: rgb(45,62,79);
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plav {
+    background-color:rgb(245,245,245);
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin: 0 auto;
+    padding: 10px 35px;
+    color: white;
+    background: rgb(193,57,43);
+    margin-top: 5%;
+}
+
+.turnOff {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: rgb(255,191,40);
+    color: white;
+}

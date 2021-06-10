@@ -15,9 +15,6 @@ var marioNeKlizi = function (e) {
         mario.style.bottom = '50%';
         mario.src = "./assets/mario.png";
     }
-    else if (key === 'ArrowDown') {
-        mario.style.top = '70%';
-    }
     else {
         mario.src = './assets/mario.png';
     }

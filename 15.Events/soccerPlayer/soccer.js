@@ -1,13 +1,12 @@
 var player = document.getElementById('player');
 var bg = document.getElementById('bg');
-var t = document.getElementById('t');
 var status = 'on';
 
 function movePlayer(eventClick) {
     if(status == 'on') {
         player.style.top = eventClick.pageY + 'px';
         player.style.left = eventClick.pageX + 'px';
-        console.log(eventClick);
+        // console.log(eventClick);
     }
     // else {
     //     player.style.left = 0;
